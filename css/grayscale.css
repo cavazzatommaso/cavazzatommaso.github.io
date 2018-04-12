@@ -194,11 +194,6 @@ a:focus, a:hover {
   background-size: cover;
 }
 
-#map {
-  width: 100%;
-  height: 300px;
-}
-
 @media (min-width: 992px) {
   .content-section {
     padding-top: 200px;
@@ -220,16 +215,16 @@ a:focus, a:hover {
 }
 
 .btn-default {
-  color: #42DCA3;
-  border: 1px solid #42DCA3;
+  color: #FF9800;
+  border: 1px solid #FF9800;
   background-color: transparent;
 }
 
 .btn-default:focus, .btn-default:hover {
   color: black;
-  border: 1px solid #42DCA3;
+  border: 1px solid #FF9800;
   outline: none;
-  background-color: #42DCA3;
+  background-color: #FF9800;
 }
 
 ul.banner-social-buttons {

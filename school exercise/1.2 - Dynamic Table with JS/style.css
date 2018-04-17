@@ -64,3 +64,18 @@ th{
   text-align: center;
   text-decoration: none;
 }
+
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #212121;
+  padding: 16px 32px;
+  font-size: 20px;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+}

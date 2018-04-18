@@ -25,7 +25,7 @@ input[type=text], input[type=number]  {
     padding: 12px 16px;
 }
 
-#btn_aggiungi{
+.btn{
   width: 80%;
   height: 40px;
   margin: 20px 0px;
@@ -33,6 +33,11 @@ input[type=text], input[type=number]  {
   color: black;
   border: none;
   text-decoration: none;
+  margin-bottom: 4px;
+}
+
+#btn_totale{
+  margin-top: 0px;
 }
 
 table{
@@ -63,6 +68,18 @@ th{
   padding: 12px 2px;
   text-align: center;
   text-decoration: none;
+}
+
+#totalResult{
+  display: none;
+  margin: 80px auto;
+  background-color: #212121;
+  opacity: 0.7;
+  width: 40%;
+  color: white;
+  height: 40px;
+  border-radius: 1%;
+  padding: 12px 32px;
 }
 
 footer{

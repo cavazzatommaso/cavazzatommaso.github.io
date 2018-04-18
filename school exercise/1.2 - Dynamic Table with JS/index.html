@@ -11,11 +11,12 @@
     <header>
       <h1> Exercise 1.2 - Dynamic Table with JS</h1>
     </header>
-    <form>
+    <form id="inputForm">
       <input type="text" id="product" value="Pizza">
       <input type="number" id="quantity" value="1">
       <input type="number" id="price" value="5">
-      <input type="button" name="add" value="Aggiungi" onclick="aggiungi()" id="btn_aggiungi">
+      <input type="button" name="add" value="Aggiungi" onclick="aggiungi()" class="btn">
+      <input type="button" name="add" value="Totale" onclick="total()" class="btn" id="btn_totale">
     </form>
     <table id="tabella">
       <th>Prodotto</th>
@@ -23,6 +24,9 @@
       <th>Prezzo</th>
       <th>Cancella</th>
     </table>
+    <div id="totalResult">
+      Il totale è : <span id="spanTot"></span>. <a href="javascript:window.location.href=window.location.href">Ricarica la pagina </a>
+    </div>
     <footer><a href="1.2 - Dynamic Table with JS.7z" download>Download the Exercise for FREE!</a></footer>
   </body>
 </html>

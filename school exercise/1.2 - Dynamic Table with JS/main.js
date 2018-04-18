@@ -1,4 +1,5 @@
 var ct = 0;
+var totale = 0;
 
 document.addEventListener("keyup", function(event) {
     event.preventDefault();
@@ -19,17 +20,19 @@ function aggiungi(){
   var colQuantity = document.createElement('td');
   var colPrice = document.createElement('td');
   var btnCancell = document.createElement('input');
-  //Some style for the button
-  btnCancell.setAttribute("type","button");
-	btnCancell.setAttribute("value","Elimina");
-  btnCancell.setAttribute("id","btn");
-  btnCancell.setAttribute("onclick","cancella('"+ct+"c')");
-  newRow.setAttribute("id",ct+"c");
-  //btnCancell.setAttribute("style","width:100%");
   //Bring the text from the form
 	var formProduct = document.getElementById("product").value;
 	var formQuantity = document.getElementById("quantity").value;
 	var formPrice = document.getElementById("price").value;
+  totale = totale + (formPrice * formQuantity);
+  tot = formPrice * formQuantity;
+  console.log(tot);
+  //Some style for the button
+  btnCancell.setAttribute("type","button");
+	btnCancell.setAttribute("value","Elimina");
+  btnCancell.setAttribute("id","btn");
+  btnCancell.setAttribute("onclick","cancella('"+ct+"c','"+tot+"')");
+  newRow.setAttribute("id",ct+"c");
   //Add the text to the new collumn
 	colProduct.innerHTML = formProduct;
 	colQuantity.innerHTML = formQuantity;
@@ -43,9 +46,20 @@ function aggiungi(){
 	table.appendChild(newRow);
 }
 
-function cancella(idTr)
+function cancella(idTr,tot)
 			{
 				var c = document.getElementById(idTr);
-        console.log(c);
+        totale = totale - tot;
+        console.log(c+totale);
 				tabella.removeChild(c);
 			}
+
+function total(){
+  var form = document.getElementById("inputForm");
+  var elements = form.elements;
+  for (var i = 0, len = elements.length; i < len; ++i) {
+    elements[i].readOnly = true;
+  }
+    document.getElementById("spanTot").innerHTML = totale;
+    document.getElementById("totalResult").style.display = "block";
+}

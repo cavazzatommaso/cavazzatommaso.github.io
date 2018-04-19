@@ -82,6 +82,11 @@ th{
   padding: 12px 32px;
 }
 
+#totalResult a{
+  text-decoration: none;
+  color: white;
+}
+
 footer{
   position: fixed;
   bottom: 0;

@@ -59,7 +59,9 @@ function total(){
   var elements = form.elements;
   for (var i = 0, len = elements.length; i < len; ++i) {
     elements[i].readOnly = true;
+    elements[i].disabled = true;
   }
+    // document.getElementById("btn_aggiungi").disabled = true;
     document.getElementById("spanTot").innerHTML = totale;
     document.getElementById("totalResult").style.display = "block";
 }

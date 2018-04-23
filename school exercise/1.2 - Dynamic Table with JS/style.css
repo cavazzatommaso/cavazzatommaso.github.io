@@ -87,6 +87,10 @@ th{
   color: white;
 }
 
+#totalResult a:hover{
+  color: blue;
+}
+
 footer{
   position: fixed;
   bottom: 0;

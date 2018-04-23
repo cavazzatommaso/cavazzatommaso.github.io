@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Esercizio 1.1 - Canvas</title>
+	<style type="text/css">
+	</style>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+	<header>
+		<h1> Exercise 1.1 - Canvas Working With LocalStorage</h1>
+	</header>
+	<canvas id="canvas" width="500px" height="200px"></canvas>
+	<script type="text/javascript">
+		var c = document.getElementById("canvas");
+		var ctx = c.getContext("2d");
+			ctx.font =  localStorage.font+ "px" + " Arial";
+			ctx.fillStyle = localStorage.color;
+			ctx.fillText(localStorage.text,10,170);
+	</script>
+	<footer><a href="1.2 - Dynamic Table with JS.7z" download>Download the Exercise for FREE!</a></footer>
+</body>
+</html>

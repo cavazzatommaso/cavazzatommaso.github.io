@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Esercizio 1.1 - Form LocalStorage</title>
+	<script type="text/javascript">
+	 function salva(){
+	 	var colore = document.getElementById("colore").value;
+		var testo = document.getElementById("testo").value;
+		var font = document.getElementById("font").value;
+		localStorage.color = colore;
+		localStorage.text = testo;
+		localStorage.font = font;
+	 }
+	</script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1> Exercise 1.1 - Canvas Working With LocalStorage</h1>
+	</header>
+		<form>
+			<input type="text" id="testo" value="OH OH OH">
+			<input type="color" id="colore" value="red">
+			<input type="number" id="font" value="25">
+			<a href="canvas.html"><input type="button" id="btn" onclick="salva()" value="Crea!"></a>
+		</form>
+		<footer><a href="1.1 - Form LocalStorage.7z" download>Download the Exercise for FREE!</a></footer>
+</body>
+</html>

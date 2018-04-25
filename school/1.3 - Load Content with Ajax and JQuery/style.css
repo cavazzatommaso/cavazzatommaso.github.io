@@ -34,8 +34,7 @@ form{
   width: 80%;
   height: 400px;
   margin: auto;
-  background-color: yellow;
-  overflow: hidden;
+  overflow: auto;
 }
 
 footer{

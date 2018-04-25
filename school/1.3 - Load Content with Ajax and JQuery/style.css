@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+header{
+  width: 100%;
+  background: #212121;
+  color: white;
+  padding: 16px 32px;
+}
+
+.container{
+  padding: 16px 32px;
+}
+
+form{
+  padding: 16px 32px;
+}
+
+.btn{
+  width: 80%;
+  height: 40px;
+  background-color: #e7e7e7;
+  color: black;
+  border: none;
+  text-decoration: none;
+  margin-bottom: 4px;
+}
+
+.content-news{
+  width: 80%;
+  height: 400px;
+  margin: auto;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #212121;
+  padding: 16px 32px;
+  font-size: 20px;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+}

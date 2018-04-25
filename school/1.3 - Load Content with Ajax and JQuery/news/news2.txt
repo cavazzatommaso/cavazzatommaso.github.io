@@ -1,0 +1,86 @@
+Il MIT ha sviluppato un sistema per "controllare" i sogni
+
+Tra la vita da svegli e il sonno profondo c'è un limbo che attraversiamo ogni notte, popolato da allucinazioni bellissime e terrificanti.
+
+Tra la vita da svegli e il sonno più profondo si trova un limbo che attraversiamo ogni notte, anche se ci fermiamo raramente a osservare le meraviglie di questo mondo di confine. Ma se ci proviamo, possiamo scoprire che è popolato da allucinazioni bellissime e terrificanti, una macedonia mentale di realtà e fantasia.
+
+Di solito passiamo attraverso questo stadio di dormiveglia mentre ci accingiamo a cadere nel sonno profondo. Facciamo dei micro-sogni durante la transizione, ma i contenuti appaiono essere random e di solito non ne abbiamo nessuna memoria mentre siamo svegli. Così, un team di ricercatori condotto dal dottorando del MIT Adam Horowitz vuole modificare questo aspetto.
+
+Horowitz e i suoi colleghi del MIT Media Lab hanno sviluppato un dispositivo relativamente semplice chiamato Dormio per interfacciarsi con questo singolare stadio del sonno. La loro ipotesi è che il periodo liminale tra il sonno e la veglia sia fonte di creatività che spesso si perde negli oceani del sonno. L’idea è che se sei in grado di discendere in quello stadio del sonno e tornare cosciente senza piombare nel sonno profondo, potrai approfittare del pensiero associativo intenso che caratterizza quegli strani micro-sogni di cui abbiamo esperienza durante la transizione.
+
+Per ora, Horowitz ha testato il device su 15 soggetti e ha scoperto che è in grado di massimizzare in maniera affidabile la quantità di tempo che gli utenti trascorrono tra veglia e sonno, e di plasmare i contenuti dei micro-sogni di cui hanno avuto esperienza. In altre parole, questi ricercatori del MIT hanno sviluppato un device a basso costo che permette agli utenti di controllare il sonno.
+
+QUANDO STIAMO EFFETTIVAMENTE DORMENDO?
+Il nome tecnico che descrive la consapevolezza del breve periodo che intercorre tra la veglia e il sonno è ipnagogia ed è ancora un mistero per i neuroscienziati. Il motivo è che determinare quando una persona si sta effettivamente addormentando è un argomento di dibattito tra gli scienziati. È un po' come cercare di determinare quando qualcuno è morto 'per davvero': quando il cuore smette di battere? Quando si perde coscienza? O quando le cellule smettono finalmente di replicarsi?
+
+Quello che è certo, tuttavia, è che l'ipnagogia è un fenomeno naturale che quasi tutti noi sperimentiamo tutte le notti.
+
+”Le immagini o allucinazioni ipnagogiche sono un normale stato di coscienza nel passaggio dalla veglia al sonno,” mi ha spiegato via mail Vladas Noreika, psicologo di Cambridge che non ha lavorato a Dormio. A differenza di altri stati di sonno che comprendono la consapevolezza, come il sogno lucido durante il sonno REM, l'ipnagogia non richiede un training speciale per sperimentarne gli effetti. È un fenomeno comune che è parte naturale del ritmo circadiano.
+
+”Le grandi questioni da risolvere sono capire se diventiamo più creativi in questo stato di coscienza e perché in alcuni casi l'ipnagogia porta ad un vero e proprio sogno, mentre in altri casi al sonno senza sogni,” ha aggiunto Noreika.
+
+
+Un primo prototipo del guanto di Dormio. Immagine: Adam Horowitz/MIT
+Definire cos'è l'ipnagogia è difficile perché le persone che si trovano in questo stato mostrano comportamenti caratteristici del sonno e della veglia, sia dal proprio punto di vista che da quello esterno. Tecnicamente parlando, l'ipnagogia si verifica durante lo stadio 1 del sonno anche se, a volte, le persone che si svegliano durante questo stadio riferiscono di non essersi ancora addormentate o sono in grado di rispondere quando qualcuno parla con loro. Inoltre, spesso le persone risvegliate dallo stato ipnagogico raccontano di allucinazioni visive e uditive molto vivide o di micro-sogni ma, come per lo stesso sonno, ciò che viene inteso come 'sogno' è oggetto di dibattito tra gli neuroscienziati.
+
+Queste strane esperienze spiegano perché lo stato di coscienza ipnagogico sia stato ricercato da alcune delle menti scientifiche e artistiche più brillanti della storia. Thomas Edison, Edgar Allen Poe, Vladimir Nabokov, Mary Shelley, Albert Einstein, Salvador Dali, August Kekule e Richard Wagner hanno tutti espresso la loro ammirazione per l'ipnagogia e hanno affermato che le loro esperienze in questa zona misteriosa della mente hanno portato a improvvisi esplosioni di creatività o di lucidità mentale. L'idea che ”l'accesso consapevole alle forze inconsce” sia alla base della creatività è stata anche ripresa e riformulata in modo più rigoroso dal biofisico Eric Kandel negli anni Novanta.
+
+Ad ogni modo, non sorprende che molti di questi stessi pensatori abbiano sviluppato dei metodi di ’life hacking’ per indurre lo stato di coscienza ipnagogico e sfruttarne i benefici creativi.
+
+”Sentivo di non trovarmi realmente in nessun luogo, in questo spazio in cui esistono queste idee e tutto era così pieno di senso.”
+
+L'esempio più famoso di stato ipnagogico indotto volontariamente è probabilmente il trucco delle sfere d'acciaio di Thomas Edison. Secondo alcuni racconti apocrifi, Edison era in grado di indursi in da solo automaticamente il suo stato ipnagogico in modo affidabile, addormentandosi con delle sfere d'acciaio in mano. Mentre si abbandonava al sonno, i suoi muscoli si rilassavano e lui faceva inevitabilmente cadere le palle sul pavimento e il rumore della caduta lo riportava nuovamente nello stato di veglia. Durante questi micro-sonnellini, Edison non si addormentava mai completamente, ma sperimentava le strane allucinazioni e intuizioni caratteristiche dello stato ipnagogico.
+
+”Tutti questi grandi pensatori hanno descritto in modo splendido questo stato d'animo in cui il mondo comincia a dissolversi, ma si ha ancora la consapevolezza della nostra discesa nell'incoscienza e dei ricordi che si mescolano con le allucinazioni,” mi ha raccontato Horowitz al telefono. ”L'ipnagogia è uno stato incredibile, eppure, il modo migliore per raggiungerla fino ad ora era fare cadere una sfera d'acciaio.”
+
+Dormio, che fa parte di una più ampia iniziativa di studio sul sonno portato avanti dal MIT Media Lab, è essenzialmente una rivisitazione della tecnica di Edison del Ventunesimo secolo.
+
+LA MACCHINA DEI SOGNI
+Dopo le prime due versioni, Horowitz e i suoi collaboratori sono al lavoro su un terza versione di Dormio. La prima generazione consisteva in un microcontroller Arduino montato su un guanto con un piccolo sensore di pressione nel palmo progettato da Horowitz con i suoi colleghi Ishaan Grover, Sophia Yang e Pedro Reynolds Cuéllar.
+
+Una persona indossa il guanto prima di andare a dormire e stringe la mano in un pugno, esercitando una pressione sul sensore. Allo stesso tempo, i sensori elettroencefalografici (EEG) monitorano l'attività elettrica nel cervello. Mentre i sensori della mano e della testa rilevano che i muscoli della persona si stanno rilassando e che le onde cerebrali stanno cambiando mentre si sta addormentano, un Jibo robot posizionato accanto al soggetto pronuncia una frase preimpostata. Questa frase ha lo scopo di influenzare il cervello del dormiente in modo da modificare il contenuto del sogno sulla base delle frasi pronunciate da Jibo.
+
+Ovviamente, il dispositivo presenta ancora qualche inconveniente. Per prima cosa, i dispositivi EEG sono costosi ed è abbastanza complicato interpretarne i segnali. Inoltre, i sensori per il palmo della mano presentano solo due stati: on o off, questo anche se l'inizio del sonno si verifica come una transizione graduale.
+
+Per ovviare a queste problemi, Horowitz e i suoi colleghi hanno progettato una nuova versione di Dormio che sostituisce il sensore per il palmo con un sensore di flessione, il quale misura la tensione muscolare a un livello molto più granulare. Questo significa che i ricercatori possono studiare un soggetto che si addormenta gradualmente monitorando la perdita del suo tono muscolare. Inoltre, hanno anche sostituito l'EEG con segnali biologici più semplici — come la frequenza cardiaca — forniti a Jibo robot attraverso un'app per smartphone.
+
+Horowitz ha spiegato che la terza generazione del dispositivo funzionerà semplicemente monitorando il movimento delle palpebre nei soggetti addormentati. L'obiettivo è quello di rendere Dormio il più confortevole, economico e non invasivo possibile per rendere più facile agli utenti addormentarsi durante il suo utilizzo.
+
+
+Un volontario utilizza la prima generazione di Dormio. Immagine: MIT
+Horowitz ha testato la prima versione di Dormio su sei volontari del MIT. I partecipanti raggiungevano il laboratorio nelle prime ore della sera e si sdraiavano su un divano per addormentarsi. Mentre si addormentavano, il robot Jibo li stimolava con una di queste due frasi: ”ricorda di pensare a un coniglio” o ”ricorda di pensare a una forchetta.” Quando il sistema Dormio rilevava che i partecipanti si stavano addormentando, il robot ripeteva il loro nome e la frase ”ti stai addormentando.”
+
+Si tratta dell'equivalente del sistema di Edison delle sfere d'acciaio, ma l'obiettivo di Dormio non è quello di svegliare completamente i soggetti. Il suo scopo, invece, è impedire all'utente di addormentarsi più profondamente, sospendendolo di fatto in uno stato di ipnagogia prolungata. Una volta che i volontari si trovano in uno stato ipnagogico, il robot Jibo chiede loro cosa stanno pensando e registra le loro risposte.
+
+”Abbiamo una sorta di sistema funzionante per il controllo dei sogni.”
+
+Secondo i risultati raccolti da Horowitz, che saranno presentati questa settimana alla conferenza Computer-Human Interface a Montreal, anche se non tutti i soggetti ricordano cosa hanno detto al robot, tutti loro ”hanno ricordato e riferito di aver ascoltato la parola di stimolo mentre sognavano, dimostrando che le operazioni di instillare lo stimolo e il suo richiamo mentre i soggetti sognavano hanno avuto successo.”
+
+”Questo significa che abbiamo una sorta di sistema funzionante per il controllo dei sogni,” mi ha spiegato Horowitz.
+
+Ma Dormio non si limita a manipolare i sogni. Horowitz voleva anche verificare se l'accesso consapevole a questi micro sogni avrebbe portato all'incremento di creatività tanto ricercato da Edison e altri.
+
+Dopo che i soggetti hanno eseguito tre cicli di lavoro con Dormio, è stato sottoposto loro un test di creatività chiamato "Alternative Uses Task." Come suggerisce il nome, in questo test viene chiesto ai partecipanti di immaginare degli usi alternativi per la parola con cui sono stati stimolati — coniglio o forchetta. Ai volontari è stato anche chiesto di scrivere una storia creativa basata sulla parola ”stimolo.”
+
+
+Un soggetto che utilizza Dormio al MIT. Immagine: MIT Fluid Interfaces
+Sebbene sia notoriamente difficile misurare la creatività in modo obiettivo, i risultati dei test di controllo e di Dormio hanno mostrato i segnali di un aumento della creatività tra i volontari di Horowitz. Dopo aver vissuto un'esperienza ipnagogica, in media, si sono dedicati 158 secondi in più a lavorare sulla loro storia creativa e, dopo avere utilizzato Dormio, cinque dei sei volontari hanno ottenuto un punteggio più alto nella prova di trovare un uso alternativo delle parole, rispetto ai test di prova. Nei report personali, quattro dei volontari hanno dichiarato di giudicare le idee generate durante la fase ipnagogica come creative.
+
+”Le idee non venivano da me, mi passavano semplicemente per la testa,” ha riferito un soggetto. ”Sentivo di non trovarmi realmente in nessun luogo, in questo spazio in cui esistono queste idee e tutto era così pieno di senso.”
+
+”Il motivo per cui si ottengono questi diversi modi di elaborare le informazioni è che il cervello non è lo stesso all'inizio del sonno,” mi ha detto Horowitz. ”Si perdono molte delle funzioni frontali, questo significa eseguire una grande quantità di processi associativi, sperimentare una perdita di senso del sé, del senso del tempo, dello spazio e diventa molto più facile utilizzare il pensiero divergente, che è strettamente connesso al trovare delle soluzioni innovative e insolite che si sarebbero ignorate in stato di veglia.”
+
+IL FUTURO DI DORMIO
+L'idea di interfacciarsi con i nostri sogni per stimolare naturalmente la nostra creatività è interessante, ma è ancora un campo di ricerca emergente che richiederà molte altre sperimentazioni. Horowitz ha già testato la seconda versione di Dormio su nove soggetti, ma ha raccontato di avere bisogno di un gruppo di ben più di 15 soggetti per esaminare nel dettaglio l'influenza di Dormio sull'ipnagogia. Oltre a raccogliere ulteriori dati, lui e il suo team stanno anche lavorando allo sviluppo di una versione ancora meno invadente di Dormio che rilevi l'insorgere dello stato ipnagogico solo attraverso il monitoraggio del movimento palpebrale.
+
+Nel frattempo, altri ricercatori come Noreika stanno lavorando per scoprire i meccanismi neurali che si celano dietro allo stato ipnagogico. Si tratta di un fenomeno difficile da individuare perché i suoi effetti sono vari: da allucinazioni vivide e sogni, all'emergere nella mente di pensieri impersonali.
+
+
+Immagine: Oscar Rosello/MIT
+”Anche se i meccanismi neurali dell'ipnagogia non sono ancora completamente chiari, è emerso che il rigido controllo cerebrale frontale degli input sensoriali si allenta durante la fase di sonnolenza, provocando la generazione di esperienze sensoriali imprevedibili,” mi ha detto Noreika.
+
+Tuttavia, lo stato ipnagogico sembra avere dei legami con le proprie esperienze. Questo significa che alcune persone possono essere più propense a sperimentare dei fenomeni linguistici rispetto alle immagini allucinatorie o uditive, per esempio. Nel 2015, Noreika ha condotto uno studio di dieci sessioni nel suo laboratorio in cui un professore di letteratura in pensione raccontava le sue esperienze mentre sprofondava nel sonno. Durante queste sessioni, il professore ha riferito di uno stato ipnagogico caratterizzato da ”intense intrusioni linguistiche, comprese parole composte da lingue straniere.” Come ha sottolineato Noreika, ”è probabile che le persone che non hanno una conoscenza approfondita delle lingue straniere non subiscano tali intrusioni.”
+
+Horowitz ha descritto legami simili tra le esperienze ipnagogiche dei suoi soggetti durante le sedute di Dormio e la loro vite da svegli. Ad esempio, quando uno dei suoi soggetti è stato stimolato con la parola 'forchetta,' lui come risposta ha mormorato ”le forchette sono colonialismo.”
+
+”Gli ho chiesto di parlarne quando si è svegliato,” mi ha spiegato Horowitz. ”Ha detto: 'A casa mangio cibo con le mani e qui ho uno strumento di metallo affilato e freddo che uso per pugnalare il cibo che assumo. Credo che abbia un'energia colonialista.' Ha detto di avere sempre pensato qualcosa di simile riguardo le forchette, ma non ha mai pensato che ci aveva pensato. L'idea che tu possa accedere allo stato cognitivo che ti permette di vedere te stesso con questa tecnologia è molto eccitante.”

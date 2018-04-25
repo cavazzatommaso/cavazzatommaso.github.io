@@ -6,6 +6,8 @@
 	</style>
 </head>
 <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <body>
 	<header>
 		<h1> Exercise 1.1 - Canvas Working With LocalStorage</h1>
@@ -14,9 +16,26 @@
 	<script type="text/javascript">
 		var c = document.getElementById("canvas");
 		var ctx = c.getContext("2d");
+		resizeCanvasToDisplaySize(ctx.canvas);
 			ctx.font =  localStorage.font+ "px" + " Arial";
 			ctx.fillStyle = localStorage.color;
 			ctx.fillText(localStorage.text,10,170);
+
+			function resizeCanvasToDisplaySize(canvas) {
+				console.log("sono dentro");
+   // look up the size the canvas is being displayed
+   const width = canvas.clientWidth;
+   const height = canvas.clientHeight;
+
+   // If it's resolution does not match change it
+   if (canvas.width !== width || canvas.height !== height) {
+     canvas.width = width;
+     canvas.height = height;
+     return true;
+   }
+
+   return false;
+}
 	</script>
 	<footer><a href="1.2 - Dynamic Table with JS.7z" download>Download the Exercise for FREE!</a></footer>
 </body>

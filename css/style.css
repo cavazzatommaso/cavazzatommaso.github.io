@@ -3,10 +3,23 @@
 	}
 
 h1{
-  font-size: 5em;
+  font-size: 10em;
   font-family: arial,helvetica;
   margin:0;
   padding:0;
+}
+
+h2{
+  font-size: 1.37em;
+  font-family: arial,helvetica;
+  color: rgba(255,255,255,.7);
+  margin:0;
+  padding:0;
+}
+
+a{
+  text-decoration: none;
+  color: white;
 }
 
 #Welcome {

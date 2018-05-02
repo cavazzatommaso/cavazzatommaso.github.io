@@ -2,9 +2,30 @@
 <html lang="it" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Tommaso Cavazza</title>
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript">
+      $(document).ready(function() {
+      	$('#fullpage').fullpage({
+          controlArrows: false,
+          navigation: true,
+          navigationTooltips: ['Welcome', 'Projects', 'Contact'],
+          slidesNavigation: true,
+      	});
+      });
+    </script>
   </head>
   <body>
-    <h1>Hello</h1>
+    <div id="fullpage">
+    	<div class="section" id="Welcome"><h1>I'm Tommaso Cavazza</h1></div>
+      <div class="section" id="Content">
+      	<div class="slide"> <h1>Projects</h1> </div>
+      	<div class="slide"> <h1>School Exercise</h1> </div>
+      </div>
+    	<div class="section" id="Contact"><h1>Contact Me</h1></div>
+    </div>
   </body>
 </html>

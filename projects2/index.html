@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Projects</title>
+    <link rel="stylesheet" type="text/css" href="../jquery.fullPage.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script type="text/javascript" src="../jquery.fullPage.js"></script>
+    <link rel="stylesheet" href="project.css">
+    <script type="text/javascript">
+      $(document).ready(function() {
+      	$('#fullpage').fullpage({
+          controlArrows: false,
+          navigation: false,
+          navigationTooltips: ['Projects'],
+          slidesNavigation: true,
+      	});
+      });
+    </script>
+    <script src="../js/main.js"></script>
+  </head>
+  <body>
+    <div id="fullpage">
+      <div class="section" id="Content">
+      	<div class="slide">
+          <div class="content-slide" onclick="transitionToPage('http://control-find.herokuapp.com/')">
+            <div class="left">
+              <div class="card">
+                <h1>Control Find</h1>
+                <img src="./logoNewPNG.png" alt="" srcset="">
+              </div>
+            </div>
+            <div class="right">
+              <p>
+                Un classico dei giochi da tavolo in versione online per divertirsi in compagnia a distanza!<br>
+
+                Fai indovinare la parola alla tua squadra ma senza dire le parole vietate!<br><br>
+
+                Come si gioca?<br>
+                1. Avviate una chiamata audio o video con tutti i partecipanti (WhatsApp, Skype, Meet, Discord o il vostro preferito)<br>
+                2. Una sola persona inserisce il proprio nome e crea una nuova stanza con il pulsante ‘Crea Partita’<br>
+                3. Una volta creata la partita, inviate ai vostri amici il link di invito premendo il pulsante ‘Copia Link’.<br>
+                Squadre: I giocatori sono assegnati alle due squadre in modo alternato (blu - rosso - blu - rosso). Organizzatevi per accedere a turno per avere i compagni che preferite!<br>
+                Impostazioni: Il creatore della stanza può impostare il numero di round e la durata in secondi di ogni turno.<br><br>
+
+                Siete pronti a giocare!
+              </p>
+            </div>
+          </div>
+        </div>
+      	<div class="slide">
+          <div class="content-slide">
+            <a href="./school/index.html">
+            <h1>School<br>Exercise</h1>
+
+            <span class="fa-stack fa-2x">
+              <i class="fal fa-circle-notch fa-stack-2x"></i>
+              <i class="fa fa-arrow-right fa-stack-1x"></i>
+            </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

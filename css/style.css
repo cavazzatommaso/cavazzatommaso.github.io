@@ -1,3 +1,7 @@
+body { 
+  opacity: 0;
+  transition: opacity .5s;
+}
 .section{
 		text-align:center;
 	}
@@ -17,13 +21,38 @@ h2{
   padding:0;
 }
 
-a{
+.content-slide{
   text-decoration: none;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
+
+h1{
+  transition: .6s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.content-slide > h1:hover{
+  color: #212121;
+  opacity: .6;
+  transform: translate3d(0.1em,-0.1em,0);
+  letter-spacing: .4em;
+}
+
+.content-slide{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 span{
-  display: inline;
+  margin-top: 40px;
+  margin-left: 40px;
 }
+
+
 
 #Welcome {
   color: white;
@@ -39,6 +68,12 @@ span{
 #Contact{
   color: white;
   background: linear-gradient(to bottom, #ffcccc 0%, #ff9966 100%);
+}
+
+#Contact > div > span{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 

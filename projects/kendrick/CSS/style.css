@@ -358,10 +358,10 @@ input[type=tel] {
 	font-size: 50px;
 }
 
-#cen video{
+#cen iframe{
 	 width: 100%;
 	 min-width: 200px;
-	 height: auto;
+	 height: 60vh;
 	 position: relative;
 }
 

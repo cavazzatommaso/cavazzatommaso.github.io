@@ -1,5 +1,6 @@
 body { 
   opacity: 0;
+  background-color: white;
   transition: opacity .5s;
 }
 .section{
